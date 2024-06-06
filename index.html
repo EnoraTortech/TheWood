@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Wood</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- lien js -->
+    <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+    <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+
+    <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+
+    <script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+
+  </head>
+  <body>
+    <button type="button" name="button">
+      <a href="index.html"><h1>The Wood</h1></a>
+    </button>
+    <!--.................Menu......................-->
+    <div class="container">
+      <div class="phone">
+        <div class="content">
+
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <li><a href="#actualitee">Actualités</a></li>
+                  <li><a href="creation.html">Créations</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+           </div>
+          </nav>
+        </div>
+       </div>
+    </div>
+
+    <header>
+        <h1>The Wood</h1>
+        <h3>Création graphique</h3>
+    </header>
+
+    <section class="main" id="actualitee">
+      <h1>Nouveaux dessins</h1>
+
+      <div id="gallery" style="display:none;">
+
+        <a href="http://unitegallery.net">
+    		<img alt="C'est le brillant scientifique Senku -  Dr Stone"
+    		     src="img/senku.png"
+    		     data-image="img/senku.png"
+    		     data-description="senku"
+    		     style="display:none">
+    		</a>
+        <a href="http://unitegallery.net">
+        <img alt="La descendance Uchiwa - Naruto "
+             src="img/uchiwa.png"
+             data-image="img/uchiwa.png"
+             data-description="Uchiwa"
+             style="display:none">
+        </a>
+        <a href="http://unitegallery.net">
+        <img alt="Une équipe de volley pas comme les autres - Haikyū!!"
+             src="img/haikyuu.png"
+             data-image="img/haikyuu.png"
+             data-description="Haikyuu"
+             style="display:none">
+        </a>
+        <a href="http://unitegallery.net">
+        <img alt="Les futurs héros - My Hero Academia"
+             src="img/mha.png"
+             data-image="img/mha.png"
+             data-description="mha"
+             style="display:none">
+        </a>
+        <a href="http://unitegallery.net">
+        <img alt="Shizuma - Strawberry Panic!"
+             src="img/Scan_0028.png"
+             data-image="img/Scan_0028.png"
+             data-description="shizuma"
+             style="display:none">
+        </a>
+        <a href="http://unitegallery.net">
+        <img alt="Princesse Mononoké"
+             src="img/Scan_0027.png"
+             data-image="img/Scan_0027.png"
+             data-description="San"
+             style="display:none">
+        </a>
+        <a href="http://unitegallery.net">
+        <img alt="Kohaku l'esprit de la rivière - Le Voyage de Chihiro"
+             src="img/Scan_0026.png"
+             data-image="img/Scan_0026.png"
+             data-description="Kohaku"
+             style="display:none">
+        </a>
+
+  		</div>
+
+    </section>
+    <footer>
+      <h1>Contact</h1>
+      <p id="contact">Email: <a href="mailto:enora.tortech@gmail.com">enora.tortech@gmail.com</a></p>
+      <p>&copy; 2021,The Wood</p>
+    </footer>
+
+    <script type="text/javascript">
+
+      jQuery(document).ready(function(){
+        jQuery("#gallery").unitegallery();
+      });
+
+    </script>
+
+  </body>
+</html>
